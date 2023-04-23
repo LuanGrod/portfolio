@@ -8,8 +8,6 @@ interface ReposProps {
 }
 
 export default function index({ data }: ReposProps) {
-  console.log(data[0]);
-
   return (
     <>
       <ul>

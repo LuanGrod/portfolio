@@ -14,7 +14,7 @@ export default function Repos({ data }: RepoProps) {
       <div>{data.name}</div>
       <Link href={data.html_url}>{data.html_url}</Link>
       <div>{data.language}</div>
-      <div>{data.homepage}</div>
+      {data.homepage ? <Link href={data.homepage}>{data.homepage}</Link> : ""}
       <div>{data.created_at.toString()}</div>
       <Image
         src={data.owner.avatar_url}
