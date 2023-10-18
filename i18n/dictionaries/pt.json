@@ -1,0 +1,50 @@
+{
+  "hello-world": "Olá mundo!",
+  "navbar": {
+    "welcome": "Bem-vindo ao meu Portfólio",
+    "about": "Sobre",
+    "tech": "Habilidades",
+    "repos": {
+      "projects": "Projetos",
+      "pinneds": "Destaques"
+    },
+    "contact": "Contato",
+    "language": "Idioma",
+    "tooltip": {
+      "download": "Baixar Currículo"
+    }
+  },
+  "about": {
+    "titleAbout": "Sobre mim",
+    "content1": "Olá, eu sou o Luan",
+    "content2": "Desenvolvedor Full Stack",
+    "content3": "Desenvolvedor full stack com experiência profissional em projetos PHP e conhecimento em tecnologias como Typescript, Next.js, Node.js e Tailwind.",
+    "content4": "Meu foco é na construção de interfaces atrativas e práticas para o usuário final, aplicando os fundamentos que adquiri ao longo do tempo para solucionar problemas reais.",
+    "getintouch": "Entre em contato"
+  },
+  "pinned": {
+    "titlePinned": "Destaques"
+  },
+  "projects": {
+    "titleProjects": "Projetos"
+  },
+  "technologies": {
+    "titleTechnologies": "Habilidades",
+    "content1": "Mais em breve"
+  },
+  "contact": {
+    "titleContact": "Contato"
+  },
+  "footer": {
+    "rights": "Todos os direitos reservados",
+    "content": "Desenvolvido utilizando Next.js (App Directory), Typescript, Tailwind, Framer motion e Shadcn/ui - Hospedagem com Vercel"
+  },
+  "notfound": {
+    "routenotfind": "Página não encontrada",
+    "returnhome": "Voltar"
+  },
+  "toasts": {
+    "langchanged": "Idioma alterado",
+    "themechanged": "Tema alterado"
+  }
+}
