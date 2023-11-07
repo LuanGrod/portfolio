@@ -7,6 +7,7 @@ import { BiLogoGmail } from "react-icons/bi";
 import { motion } from "framer-motion";
 
 import { About } from "@/i18n/dictionaries/types";
+import { Button } from "@/components/ui/button";
 
 interface TypingAnimationProps {
   dict: About;
@@ -98,28 +99,26 @@ export default function TypingAnimation({ dict }: TypingAnimationProps) {
           </motion.span>
         ))}
       </motion.div>
-      <motion.div 
-        className="w-full flex justify-center md:justify-start mt-4 gap-4"
+      <motion.div
+        className="w-full flex max-sm:flex-col flex-row justify-center md:justify-start mt-4 gap-4"
         variants={buttonContainerVariants}
         initial="hidden"
         animate="visible"
       >
-        <motion.button 
-          className="relative inline-flex items-center justify-center p-0.5 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-md"
-          variants={buttonVariants}
-        >
-          <Link className="flex gap-2 items-center relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-neutral-800 rounded-md group-hover:bg-opacity-0" href="https://drive.google.com/file/d/1FKcFFi5LbgoIdid8P9iUt_U7wri-0_25/view?usp=sharing" target="_blank">
-            <DownloadIcon className="w-4 h-4" />Download CV
-          </Link>
-        </motion.button>
-        <motion.button 
-          className="relative inline-flex items-center justify-center p-0.5 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-neutral-500 dark:from-neutral-700 to-neutral-400 dark:to-neutral-500 group-hover:from-neutral-300 dark:group-hover:from-neutral-600 group-hover:to-neutral-200 dark:group-hover:to-neutral-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-md"
-          variants={buttonVariants}
-        >
-          <Link className="flex gap-2 items-center relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-neutral-800 rounded-md group-hover:bg-opacity-0" href="mailto:luan14rodrigues17@gmail.com" target="_blank">
+        <motion.div variants={buttonVariants}>
+          <Button variant={"theme"} size={"lg"}>
+            <Link className="flex flex-row gap-4 items-center" href="https://drive.google.com/file/d/1FKcFFi5LbgoIdid8P9iUt_U7wri-0_25/view?usp=sharing" target="_blank">
+              <DownloadIcon className="w-4 h-4" />Download CV
+            </Link>
+          </Button>
+        </motion.div>
+        <motion.div variants={buttonVariants}>
+          <Button variant={"outline_neutral"} size={"lg"}>
+          <Link className="flex flex-row gap-4 items-center" href="mailto:luan14rodrigues17@gmail.com" target="_blank">
             <BiLogoGmail className="w-4 h-4" />{dict.getintouch}
           </Link>
-        </motion.button>
+          </Button>
+        </motion.div>
       </motion.div>
     </div>
   );

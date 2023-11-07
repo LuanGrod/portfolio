@@ -18,7 +18,7 @@ import {
   SheetHeader,
   SheetTitle,
   SheetTrigger,
-} from "@/components/ui/sheet";
+} from "@/components/ui/sheet"; 
 import { ThemeToggle } from "./theme-toggle";
 import {
   Tooltip,
@@ -41,7 +41,7 @@ export default function MainNav({ dict }: MainNavProps) {
   const links = getLinks(dict.navbar);
 
   return (
-    <header className="fixed top-0 z-10 w-full h-20 px-5 flex justify-between items-center align-middle shadow-lg bg-neutral-50 dark:bg-neutral-900">
+    <header className="sticky top-0 z-10 w-full h-20 px-5 flex justify-between items-center align-middle shadow-lg bg-neutral-50 dark:bg-neutral-900">
       <Sheet>
         <SheetTrigger asChild>
           <Button

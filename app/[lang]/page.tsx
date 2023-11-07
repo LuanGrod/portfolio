@@ -23,13 +23,14 @@ export default async function page({ params: { lang } }: pageProps) {
   https://flowbite.com/docs/components/drawer/
   https://flowbite.com/docs/components/speed-dial/
   https://www.rhuanbello.com/
+  https://www.birobirobiro.dev/
   https://upmostly.com/next-js/how-to-level-up-your-next-js-app-with-scroll-animations
   */
 
   return (
     <>
       <MainNav dict={dict} />
-      <main className="bg-neutral-200 dark:bg-neutral-800 relative w-auto h-fit min-h-screen flex flex-col items-center justify-center text-center duration-300 px-10 lg:px-16">
+      <main className="bg-neutral-200 dark:bg-neutral-800 relative w-auto h-fit min-h-screen flex flex-col items-center justify-center text-center duration-300">
         <About dict={dict.about} />
         <Pinned dict={dict.pinned} />
         <Technologies dict={dict.technologies} />

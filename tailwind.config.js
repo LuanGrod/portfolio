@@ -72,6 +72,11 @@ module.exports = {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
       },
+      fontFamily: {
+        montserrat: ['var(--font-montserrat)'],
+        roboto: ['var(--font-roboto)'],
+        plaster: ['var(--font-plaster)'],
+      },
     },
   },
   plugins: [require("tailwindcss-animate")],

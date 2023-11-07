@@ -13,7 +13,8 @@ interface AboutProps {
 export default async function About({ dict }: AboutProps) {
   return (
     <>
-      <section id="about" className="flex flex-col justify-center items-center w-full h-fit gap-24 mt-20 max-sm:py-20 py-28">
+      {/* <section id="about" className="flex flex-col justify-center items-center w-full h-screen gap-24 bg-red-500"> */}
+      <section id="about" className="flex flex-col justify-center items-center w-full h-screen gap-24 px-10 lg:px-16 bg-gradient-to-b from-neutral-50 to-neutral-200 dark:from-neutral-900 dark:to-neutral-800">
         <div className="w-full flex flex-col-reverse md:flex-row justify-evenly items-center">
           <TypingAnimation dict={dict}/>
           <Image src={image} width={500} height={500} className="w-64 h-64 rounded-full" alt="image" />

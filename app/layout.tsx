@@ -3,7 +3,7 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 import { i18n } from '@/i18n/i18n-config'
-import { roboto, montserrat } from '@/lib/fonts'
+import { roboto, montserrat, plaster } from '@/lib/fonts'
 import ThemeProvider from '@/providers/theme-provider'
 import ToastProvider from '@/providers/toast-provider'
 
@@ -25,7 +25,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang={params.lang} className="scroll-smooth" suppressHydrationWarning>
-      <body className={`min-h-screen ${roboto.variable} ${montserrat.variable}`}>
+      <body className={`min-h-screen ${roboto.variable} ${plaster.variable} ${montserrat.variable}`}>
         <ToastProvider />
         <ThemeProvider
           attribute="class"
