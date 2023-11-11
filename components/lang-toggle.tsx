@@ -24,7 +24,6 @@ export function LangToggle({ dict }: LangToggleProps) {
   const router = useRouter();
   const pathName = usePathname();
 
-  const [position, setPosition] = useState("bottom");
 
   const redirectedPathName = (locale: string) => {
     if (!pathName) return '/'
@@ -46,10 +45,9 @@ export function LangToggle({ dict }: LangToggleProps) {
         <Button variant="link">{dict.navbar.language}</Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent className="w-56">
-        <DropdownMenuRadioGroup value={position} onValueChange={(e) => handlePathChange(e)} defaultValue={pathName.split('/')[1]}>
+        <DropdownMenuRadioGroup onValueChange={(e) => handlePathChange(e)} defaultValue={pathName.split('/')[1]}>
           <DropdownMenuRadioItem value="pt">Português</DropdownMenuRadioItem>
           <DropdownMenuRadioItem value="en">English</DropdownMenuRadioItem>
-          <DropdownMenuRadioItem value="es">Español</DropdownMenuRadioItem>
         </DropdownMenuRadioGroup>
       </DropdownMenuContent>
     </DropdownMenu>

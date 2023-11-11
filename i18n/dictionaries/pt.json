@@ -26,7 +26,47 @@
     "titlePinned": "Destaques"
   },
   "projects": {
-    "titleProjects": "Projetos"
+    "titleProjects": "Projetos",
+    "visit": "Visite o site",
+    "visitgithub": "Acessar repositório",
+    "list": {
+      "portfolio": {
+        "short": "Portfólio em Desenvolvimento: Explore meu espaço virtual em constante evolução.",
+        "long": "Um espaço digital cuidadosamente projetado para apresentar um pouco de minha vida como desenvolvedor. Aqui você encontrará uma coleção de projetos que ilustram minha jornada no mundo do desenvolvimento web. Estou constantemente atualizando este portfólio à medida que novos projetos surgem, então fique à vontade para voltar sempre e conferir as últimas adições."
+      },
+      "animeflix": {
+        "short": "Clone de Interface Netflix: Explore categorias de filmes e séries em um design familiar.",
+        "long": "Clone da interface inicial da Netflix, este projeto oferece uma estrutura sem funcionalidades avançadas, proporcionando uma experiência visual semelhante à plataforma de streaming popular. Apresenta cartazes de destaque, categorias distintas para filmes e séries, e uma disposição intuitiva para fácil navegação. Embora seja uma simulação estática, captura a estética limpa e organizada da interface original da Netflix, permitindo uma experiência familiar aos usuários."
+      },
+      "blackjack": {
+        "short": "Jogo de Blackjack Online: Desfrute do clássico jogo de cartas no seu navegador.",
+        "long": "Jogo simulando o Blackjack com uma interface simples e jogabilidade autêntica. Desenvolvido para oferecer uma experiência direta e sem complicações, este projeto traz a emoção do Blackjack para a web. Compatível com dispositivos desktop e móveis, é uma maneira fácil e acessível de aproveitar o desafio estratégico deste conhecido jogo de cartas."
+      },
+      "instagram": {
+        "short": "Clone de Tela de Login do Instagram: Uma recriação simples da tela de entrada.",
+        "long": "Este projeto consiste em um clone básico da tela de login do Instagram, apresentando a estrutura essencial sem funcionalidades ativas. Projetado para replicar visualmente a interface de login do Instagram, oferece uma visão estática da página de entrada, destinada a destacar habilidades de design, sem interações ativas. Embora seja apenas um esqueleto, capta a estética reconhecível da tela de login do Instagram para fins demonstrativos."
+      },
+      "leairn": {
+        "short": "Marketplace de Cursos Tecnológicos: Explore uma variedade de cursos em uma plataforma de demonstração.",
+        "long": "Este é um projeto de demonstração de um marketplace de cursos tecnológicos, apresentando uma estrutura básica para simular a experiência de navegação. Na tela inicial, você encontrará destaque de cursos, categorias e informações gerais sobre a plataforma. A página de \"Cursos\" oferece uma visão abrangente, com um filtro não funcional para ilustrar a capacidade de seleção. Cada curso específico tem sua própria página, exibindo detalhes fictícios e uma seção de planos que também é apenas uma simulação."
+      },
+      "petshop": {
+        "short": "Pet Shop Online: Explore produtos para seus animais de estimação e simule pedidos em um ambiente de demonstração.",
+        "long": "Bem-vindo ao Pet Shop Online, um projeto completo com frontend e backend, oferecendo uma simulação envolvente de compra para seus animais de estimação. Navegue pela página de produtos, autentique-se para uma experiência personalizada e adicione produtos ao seu carrinho, que é armazenado no local storage para preservar dados da sessão."
+      },
+      "tictactoe": {
+        "short": "Jogo da Velha Interativo: Jogue e reveja movimentos neste simples jogo da velha.",
+        "long": "Este projeto é um jogo da velha simples, mas interativo, permitindo que os jogadores não apenas joguem, mas também revisitem jogadas específicas para análise. A interface minimalista oferece uma experiência direta, enquanto a funcionalidade de retrocesso possibilita a revisão de cada passo da partida."
+      },
+      "immobilelink": {
+        "short": "ImmobileLink: Conectando Profissionais Imobiliários e Empresas de Forma Eficiente.",
+        "long": "A ImmobileLink é uma plataforma inovadora dedicada a simplificar a comunicação entre corretores, construtoras e imobiliárias. Nosso objetivo é unir o profissional ideal ao imóvel certo, promovendo parcerias frutíferas e facilitando o crescimento do setor imobiliário."
+      },
+      "beatstore": {
+        "short": "E-commerce Customizável: Crie, gerencie e analise lojas online com facilidade.",
+        "long": "Este projeto é um e-commerce altamente customizável com uma página de administração robusta. Permite a criação de novas lojas, personalização de layouts, cadastro de produtos e categorias. Com uma API backend-front-end, a comunicação é eficiente. O dashboard no admin oferece análise de desempenho detalhada, enquanto a autenticação segura e métodos de pagamento garantem uma experiência de compra confiável. Este ecossistema é uma simulação fictícia, projetada para exibir habilidades técnicas."
+      }
+    }
   },
   "technologies": {
     "titleTechnologies": "Habilidades",

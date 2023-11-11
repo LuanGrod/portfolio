@@ -65,6 +65,26 @@ export interface Pinned {
 
 export interface Projects {
   titleProjects: string;
+  visit:         string;
+  visitgithub:   string;
+  list:          List;
+}
+
+export interface List {
+  portfolio:    Animeflix;
+  animeflix:    Animeflix;
+  blackjack:    Animeflix;
+  instagram:    Animeflix;
+  leairn:       Animeflix;
+  petshop:      Animeflix;
+  tictactoe:    Animeflix;
+  immobilelink: Animeflix;
+  beatstore:    Animeflix;
+}
+
+export interface Animeflix {
+  short: string;
+  long:  string;
 }
 
 export interface Technologies {
