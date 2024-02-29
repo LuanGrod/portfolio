@@ -11,7 +11,7 @@ interface ProjectRootProps {
 
 export default function ProjectRoot({ children, ...rest }: ProjectRootProps) {
   return (
-    <div className={cn('w-full max-w-[500px] lg:max-w-[450px] h-[425px] p-7 rounded-lg bg-white/70 dark:bg-white/10 ring-1 ring-neutral-200 dark:ring-neutral-700 shadow-lg dark:shadow-2xl', rest.className)}>
+    <div className={cn('w-full max-w-[500px] lg:max-w-[450px] h-[425px] max-sm:p-4 p-7 rounded-lg bg-white/70 dark:bg-white/10 ring-1 ring-neutral-200 dark:ring-neutral-700 shadow-lg dark:shadow-2xl', rest.className)}>
       {children}
     </div>
   );

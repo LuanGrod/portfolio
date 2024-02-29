@@ -36,7 +36,7 @@
       },
       "animeflix": {
         "short": "Clone de Interface Netflix: Explore categorias de filmes e séries em um design familiar.",
-        "long": "Clone da interface inicial da Netflix, este projeto oferece uma estrutura sem funcionalidades avançadas, proporcionando uma experiência visual semelhante à plataforma de streaming popular. Apresenta cartazes de destaque, categorias distintas para filmes e séries, e uma disposição intuitiva para fácil navegação. Embora seja uma simulação estática, captura a estética limpa e organizada da interface original da Netflix, permitindo uma experiência familiar aos usuários."
+        "long": "Clone básico da interface inicial da Netflix, oferecendo uma estrutura simplificada sem funcionalidades avançadas. Apresenta cartazes em destaque e categorias separadas para filmes e séries. Embora seja uma simulação estática, reflete a estética limpa e organizada da Netflix original, proporcionando uma experiência familiar aos usuários."
       },
       "blackjack": {
         "short": "Jogo de Blackjack Online: Desfrute do clássico jogo de cartas no seu navegador.",
@@ -44,11 +44,11 @@
       },
       "instagram": {
         "short": "Clone de Tela de Login do Instagram: Uma recriação simples da tela de entrada.",
-        "long": "Este projeto consiste em um clone básico da tela de login do Instagram, apresentando a estrutura essencial sem funcionalidades ativas. Projetado para replicar visualmente a interface de login do Instagram, oferece uma visão estática da página de entrada, destinada a destacar habilidades de design, sem interações ativas. Embora seja apenas um esqueleto, capta a estética reconhecível da tela de login do Instagram para fins demonstrativos."
+        "long": "Este projeto é um clone simples da tela de login do Instagram, com a estrutura básica e sem funcionalidades ativas. Visualmente projetado para replicar a interface de login do Instagram, oferece uma visão estática da página de entrada. Apesar de ser apenas um esboço, reflete a estética reconhecível da tela de login do Instagram para fins demonstrativos."
       },
       "leairn": {
         "short": "Marketplace de Cursos Tecnológicos: Explore uma variedade de cursos em uma plataforma de demonstração.",
-        "long": "Este é um projeto de demonstração de um marketplace de cursos tecnológicos, apresentando uma estrutura básica para simular a experiência de navegação. Na tela inicial, você encontrará destaque de cursos, categorias e informações gerais sobre a plataforma. A página de \"Cursos\" oferece uma visão abrangente, com um filtro não funcional para ilustrar a capacidade de seleção. Cada curso específico tem sua própria página, exibindo detalhes fictícios e uma seção de planos que também é apenas uma simulação."
+        "long": "Este projeto é uma demonstração de um marketplace de cursos tecnológicos com uma estrutura básica de navegação. Na tela inicial, há informações gerais sobre a plataforma. A página \"Cursos\" oferece uma visão ampla, com um filtro não funcional para mostrar a capacidade de seleção. Cada curso tem sua própria página com detalhes fictícios."
       },
       "petshop": {
         "short": "Pet Shop Online: Explore produtos para seus animais de estimação e simule pedidos em um ambiente de demonstração.",
@@ -64,7 +64,7 @@
       },
       "beatstore": {
         "short": "E-commerce Customizável: Crie, gerencie e analise lojas online com facilidade.",
-        "long": "Este projeto é um e-commerce altamente customizável com uma página de administração robusta. Permite a criação de novas lojas, personalização de layouts, cadastro de produtos e categorias. Com uma API backend-front-end, a comunicação é eficiente. O dashboard no admin oferece análise de desempenho detalhada, enquanto a autenticação segura e métodos de pagamento garantem uma experiência de compra confiável. Este ecossistema é uma simulação fictícia, projetada para exibir habilidades técnicas."
+        "long": "Este é um e-commerce altamente personalizável, com uma página de administração robusta. Permite criar novas lojas, personalizar layouts e cadastrar produtos e categorias. Com uma API backend-front-end, a comunicação é eficiente. O dashboard no admin oferece análise detalhada de desempenho, enquanto a autenticação segura e métodos de pagamento garantem uma experiência de compra confiável. Este ecossistema é uma simulação fictícia, criada para demonstrar habilidades técnicas."
       }
     }
   },

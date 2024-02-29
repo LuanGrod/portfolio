@@ -29,8 +29,8 @@ export default async function page({ params: { lang } }: pageProps) {
 
   return (
     <>
-      <MainNav dict={dict} />
       <main className="bg-neutral-200 dark:bg-neutral-800 relative w-auto h-fit min-h-screen flex flex-col items-center justify-center text-center duration-300">
+        <MainNav dict={dict} />
         <About dict={dict.about} />
         <Pinned dict={dict.pinned} />
         <Technologies dict={dict.technologies} />

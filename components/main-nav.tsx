@@ -35,8 +35,6 @@ interface MainNavProps {
 }
 
 export default function MainNav({ dict }: MainNavProps) {
-  const router = useRouter();
-
   const sections = getSection(dict.navbar);
   const links = getLinks(dict.navbar);
 

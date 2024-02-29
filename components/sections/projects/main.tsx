@@ -1,6 +1,7 @@
 import { Projects } from "@/i18n/dictionaries/types";
 import { getProjects } from "@/lib/utils";
 import ProjectList from "./components/ProjectList";
+import SectionTitle from "@/components/section-title";
 interface ProjectsProps {
   dict: Projects
 }
@@ -10,8 +11,8 @@ export default async function Projects({ dict }: ProjectsProps) {
 
   return (
     <>
-      <section id="projects" className="flex flex-col justify-center items-center w-full h-fit gap-24 max-sm:pb-20 pb-28">
-        <h1 className='font-montserrat max-sm:text-lg sm:text-xl lg:text-2xl'>{dict.titleProjects}</h1>
+      <section id="projects" className="flex flex-col justify-center items-center w-full h-fit max-sm:pb-10 pb-14">
+        <SectionTitle text={dict.titleProjects}/>
         <ProjectList list={list} dict={dict}/>
       </section>
     </>

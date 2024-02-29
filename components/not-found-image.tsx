@@ -25,7 +25,7 @@ export default function NotFoundImage({ }: NotFoundImageProps) {
           y: ["0px", "15px", "0px"]
         }}
       >
-        <Image src={imagem} className="max-sm:w-[400px] w-[500px] md:w-[677px] h-auto" alt="image" />
+        <Image src="https://res.cloudinary.com/dwsgo3qmd/image/upload/v1709243904/portfolio/fbnsmh9abnrenb72ugso.png" width={400} height={400} className="max-sm:w-[400px] w-[500px] md:w-[677px] h-auto" alt="image" />
       </motion.div>
     </>
   );

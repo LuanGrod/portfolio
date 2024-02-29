@@ -13,7 +13,7 @@ interface ProjectListProps {
 export default function ProjectList({ list, dict }: ProjectListProps) {
 
   return (
-    <div className="w-fit grid grid-cols-1 lg:grid-cols-2 gap-x-5 lg:gap-x-8 gap-y-5 p-5">
+    <div className="w-fit grid grid-cols-1 lg:grid-cols-2 gap-x-5 lg:gap-x-8 gap-y-5">
       {
         list.map(item => {
           if (!item.status) {

@@ -29,20 +29,6 @@ export default function TechList({ dict }: TechListProps) {
     }),
   };
 
-  const moreVariants = {
-    hidden: {
-      opacity: 0,
-      x: -50,
-    },
-    visible: (i = 1) => ({
-      opacity: 1,
-      x: 0,
-      transition: {
-        delay: 4 * i,
-      }
-    }),
-  };
-
   return (
     <>
       <ul className="flex mt-8 max-sm:w-3/4 sm:w-2/3 w-1/2 flex-wrap justify-center gap-2 max-sm:text-sm sm:text-base lg:text-lg text-gray-800">
@@ -64,21 +50,6 @@ export default function TechList({ dict }: TechListProps) {
             </motion.li>
           </Link>
         ))}
-
-        <motion.li
-          className="flex items-center gap-1 px-5 py-3 dark:text-white/80 text-sm"
-          variants={moreVariants}
-          initial="hidden"
-          whileInView="visible"
-          viewport={{
-            once: true,
-          }}
-        >
-          <div className="flex gap-1">
-            <PlusCircle />
-            <p>{dict.content1}</p>
-          </div>
-        </motion.li>
       </ul>
     </>
   );
