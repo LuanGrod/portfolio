@@ -1,7 +1,6 @@
 "use client";
 
 import { Menu } from "lucide-react";
-import { useRouter } from "next/navigation";
 import Link from "next/link";
 
 import { Button } from "@/components/ui/button";
@@ -18,7 +17,7 @@ import {
   SheetHeader,
   SheetTitle,
   SheetTrigger,
-} from "@/components/ui/sheet"; 
+} from "@/components/ui/sheet";
 import { ThemeToggle } from "./theme-toggle";
 import {
   Tooltip,
@@ -27,11 +26,11 @@ import {
   TooltipTrigger,
 } from "./ui/tooltip";
 
-import { Dictionaries, Navbar } from "@/i18n/dictionaries/types";
+import { Dictionaries } from "@/i18n/dictionaries/types";
 import { getLinks, getSection } from "@/lib/utils";
 
 interface MainNavProps {
-  dict: Dictionaries;
+  dict: any;
 }
 
 export default function MainNav({ dict }: MainNavProps) {
@@ -99,7 +98,7 @@ export default function MainNav({ dict }: MainNavProps) {
         </SheetContent>
       </Sheet>
       <h1 className="font-montserrat font-bold text-transparent max-sm:text-2xl sm:text-3xl lg:text-4xl bg-clip-text bg-gradient-to-tr from-purple-400 to-blue-600 dark:from-purple-500 dark:to-blue-800">
-        Luan Rodrigues{" "}
+        Luan Rodrigues
       </h1>
       <ThemeToggle dict={dict}/>
     </header>

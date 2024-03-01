@@ -5,7 +5,7 @@ interface SectionTitleProps {
 export default async function SectionTitle({text}: SectionTitleProps ) {
   return (
     <>
-       <h1 className='font-montserrat max-sm:text-lg sm:text-xl lg:text-2xl pb-6'>{text}</h1>
+       <h1 className='font-montserrat max-sm:text-lg sm:text-xl lg:text-2xl opacity-80 mb-6'>{text}</h1>
     </>
   );
 }

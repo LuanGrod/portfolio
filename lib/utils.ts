@@ -19,6 +19,10 @@ export function getSection(navbar: Navbar) {
       label: navbar.about
     },
     {
+      id: "experience",
+      label: navbar.experience
+    },
+    {
       id: "pinned",
       label: navbar.repos.pinneds
     },

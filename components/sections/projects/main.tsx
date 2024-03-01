@@ -11,7 +11,7 @@ export default async function Projects({ dict }: ProjectsProps) {
 
   return (
     <>
-      <section id="projects" className="flex flex-col justify-center items-center w-full h-fit max-sm:pb-10 pb-14">
+      <section id="projects" className="flex flex-col justify-center items-center w-full h-fit max-sm:mb-6 mb-10">
         <SectionTitle text={dict.titleProjects}/>
         <ProjectList list={list} dict={dict}/>
       </section>

@@ -8,7 +8,7 @@ interface PinnedProps {
 export default async function Pinned({ dict }: PinnedProps) {
   return (
     <>
-      <section id="pinned" className="flex flex-col justify-center items-center w-full h-fit gap-10 max-sm:pb-10 pb-14">
+      <section id="pinned" className="flex flex-col justify-center items-center w-full h-fit gap-10 max-sm:mb-6 mb-10">
       <SectionTitle text={dict.titlePinned}/>
       </section>
     </>

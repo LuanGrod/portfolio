@@ -21,6 +21,7 @@
     "autoprefixer": "10.4.15",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.0.0",
+    "embla-carousel-react": "^8.0.0",
     "framer-motion": "^10.16.1",
     "lucide-react": "^0.288.0",
     "negotiator": "^0.6.3",

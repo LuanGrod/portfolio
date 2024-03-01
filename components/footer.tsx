@@ -3,10 +3,10 @@ import { Copyright } from 'lucide-react';
 import { Separator } from "@/components/ui/separator";
 import { LangToggle } from "./lang-toggle";
 
-import { Dictionaries, Footer } from "@/i18n/dictionaries/types";
+import { Dictionaries } from "@/i18n/dictionaries/types";
 
 interface FooterProps {
-  dict: Dictionaries,
+  dict: any,
 }
 
 export default async function Footer({ dict }: FooterProps) {

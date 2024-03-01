@@ -1,8 +1,8 @@
 {
-  "hello-world": "Olá mundo!",
   "navbar": {
     "welcome": "Bem-vindo ao meu Portfólio",
     "about": "Sobre",
+    "experience": "Experiência",
     "tech": "Habilidades",
     "repos": {
       "projects": "Projetos",
@@ -21,6 +21,17 @@
     "content3": "Desenvolvedor full stack com experiência profissional em projetos PHP e conhecimento em tecnologias como Typescript, Next.js, Node.js e Tailwind.",
     "content4": "Meu foco é na construção de interfaces atrativas e práticas para o usuário final, aplicando os fundamentos que adquiri ao longo do tempo para solucionar problemas reais.",
     "getintouch": "Entre em contato"
+  },
+  "experience": {
+    "titleExperience": "Experiência",
+    "cards": {
+      "card11": "1 ano como",
+      "card12": "Programador",
+      "card21": "Atualmente",
+      "card22": "Dev PHP Jr.",
+      "card31": "Diploma em",
+      "card32": "ADS"
+    }
   },
   "pinned": {
     "titlePinned": "Destaques"

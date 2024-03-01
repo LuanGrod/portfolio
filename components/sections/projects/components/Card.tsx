@@ -3,8 +3,6 @@
 import { ProjectType } from "@/lib/models";
 import { Project } from "./ProjectComposition/Index";
 
-
-
 interface CardProps {
   project: ProjectType;
 }

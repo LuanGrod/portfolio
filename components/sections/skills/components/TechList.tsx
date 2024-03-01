@@ -31,11 +31,11 @@ export default function TechList({ dict }: TechListProps) {
 
   return (
     <>
-      <ul className="flex mt-8 max-sm:w-3/4 sm:w-2/3 w-1/2 flex-wrap justify-center gap-2 max-sm:text-sm sm:text-base lg:text-lg text-gray-800">
+      <ul className="flex max-sm:w-3/4 sm:w-2/3 w-1/2 flex-wrap justify-center gap-2 max-sm:text-sm sm:text-base lg:text-lg  my-4">
         {skills.map((item, index) => (
           <Link key={index} href={item.site} target="_blank">
             <motion.li
-              className="flex items-center gap-1 dark:text-white/80 rounded-xl px-5 py-3 bg-white hover:bg-white/60 dark:bg-white/10 dark:hover:bg-white/20 hover:cursor-pointer shadow-md "
+              className="flex items-center gap-1 rounded-xl px-5 py-3 bg-white/90 hover:bg-white dark:bg-black/80 dark:hover:bg-black hover:cursor-pointer shadow-md text-gray-800 dark:text-white/80"
               key={index}
               variants={itemsVariants}
               initial="hidden"

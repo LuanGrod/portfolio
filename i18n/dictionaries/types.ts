@@ -1,109 +1,107 @@
-// To parse this data:
-//
-//   import { Convert, Dictionaries } from "./file";
-//
-//   const dictionaries = Convert.toDictionaries(json);
-
-export interface Dictionaries {
-  "hello-world": string;
-  navbar:        Navbar;
-  about:         About;
-  pinned:        Pinned;
-  projects:      Projects;
-  technologies:  Technologies;
-  contact:       Contact;
-  footer:        Footer;
-  notfound:      Notfound;
-  toasts:        Toasts;
+export type Dictionaries = {
+    navbar:       Navbar;
+    about:        About;
+    experience:   Experience;
+    pinned:       Pinned;
+    projects:     Projects;
+    technologies: Technologies;
+    contact:      Contact;
+    footer:       Footer;
+    notfound:     Notfound;
+    toasts:       Toasts;
 }
 
-export interface About {
-  titleAbout: string;
-  content1:   string;
-  content2:   string;
-  content3:   string;
-  content4:   string;
-  getintouch: string;
+export type About = {
+    titleAbout: string;
+    content1:   string;
+    content2:   string;
+    content3:   string;
+    content4:   string;
+    getintouch: string;
 }
 
-export interface Contact {
-  titleContact: string;
+export type Contact = {
+    titleContact: string;
 }
 
-export interface Footer {
-  rights:  string;
-  content: string;
+export type Experience = {
+    titleExperience: string;
+    cards:           Cards;
 }
 
-export interface Navbar {
-  welcome:  string;
-  about:    string;
-  tech:     string;
-  repos:    Repos;
-  contact:  string;
-  language: string;
-  tooltip:  Tooltip;
+export type Cards = {
+    card11: string;
+    card12: string;
+    card21: string;
+    card22: string;
+    card31: string;
+    card32: string;
 }
 
-export interface Repos {
-  projects: string;
-  pinneds:  string;
+export type Footer = {
+    rights:  string;
+    content: string;
 }
 
-export interface Tooltip {
-  download: string;
+export type Navbar = {
+    welcome:    string;
+    about:      string;
+    experience: string;
+    tech:       string;
+    repos:      Repos;
+    contact:    string;
+    language:   string;
+    tooltip:    Tooltip;
 }
 
-export interface Notfound {
-  routenotfind: string;
-  returnhome:   string;
+export type Repos = {
+    projects: string;
+    pinneds:  string;
 }
 
-export interface Pinned {
-  titlePinned: string;
+export type Tooltip = {
+    download: string;
 }
 
-export interface Projects {
-  titleProjects: string;
-  visit:         string;
-  visitgithub:   string;
-  list:          List;
+export type Notfound = {
+    routenotfind: string;
+    returnhome:   string;
 }
 
-export interface List {
-  portfolio:    Animeflix;
-  animeflix:    Animeflix;
-  blackjack:    Animeflix;
-  instagram:    Animeflix;
-  leairn:       Animeflix;
-  petshop:      Animeflix;
-  tictactoe:    Animeflix;
-  immobilelink: Animeflix;
-  beatstore:    Animeflix;
+export type Pinned = {
+    titlePinned: string;
 }
 
-export interface Animeflix {
-  short: string;
-  long:  string;
+export type Projects = {
+    titleProjects: string;
+    visit:         string;
+    visitgithub:   string;
+    list:          List;
 }
 
-export interface Technologies {
-  titleTechnologies: string;
-  content1:          string;
+export type List = {
+    portfolio:    Animeflix;
+    animeflix:    Animeflix;
+    blackjack:    Animeflix;
+    instagram:    Animeflix;
+    leairn:       Animeflix;
+    petshop:      Animeflix;
+    tictactoe:    Animeflix;
+    immobilelink: Animeflix;
+    beatstore:    Animeflix;
 }
 
-export interface Toasts {
-  langchanged:  string;
-  themechanged: string;
+export type Animeflix = {
+    short: string;
+    long:  string;
 }
 
-// Converts JSON strings to/from your types
-export class Convert {
-  public static toDictionaries(json: string): Dictionaries {
-      return JSON.parse(json);
-  }
+export type Technologies = {
+    titleTechnologies: string;
+    content1:          string;
+}
 
-  public static dictionariesToJson(value: Dictionaries): string {
-      return JSON.stringify(value);
-  }
+export type Toasts = {
+    langchanged:  string;
+    themechanged: string;
 }

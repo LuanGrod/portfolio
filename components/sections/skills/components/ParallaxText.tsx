@@ -9,7 +9,7 @@ interface ParallaxTextProps {
 }
 
 export default function ParallaxText({ children, baseVelocity = 100 }: ParallaxTextProps) {
-  const array = [0,0,0,0,0,0,0,0,0,0,0,0];
+  const array = [0,0,0,0,0,0,0,0,0,0,0,0,0];
   const baseX = useMotionValue(0);
   const { scrollY } = useScroll();
   const scrollVelocity = useVelocity(scrollY);
@@ -39,11 +39,11 @@ export default function ParallaxText({ children, baseVelocity = 100 }: ParallaxT
   });
 
   return (
-    <div className="w-full font-plaster flex whitespace-nowrap flex-nowrap font-semibold uppercase text-7xl tracking-tighter m-0 overflow-hidden">
+    <div className="w-full font-plaster flex whitespace-nowrap flex-nowrap font-semibold uppercase text-7xl text-neutral-200 dark:text-neutral-800 tracking-tighter m-0 overflow-hidden">
       <motion.div style={{ x }}>
         {
           array.map((item, index) => (
-            <span className="" key={index}>{children} </span>
+            <span key={index}>{children} </span>
           ))
         }
       </motion.div>

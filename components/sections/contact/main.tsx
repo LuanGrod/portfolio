@@ -1,4 +1,5 @@
 import { Contact } from "@/i18n/dictionaries/types";
+
 import ContactIcons from "./components/ContactIcons";
 import SectionTitle from "@/components/section-title";
 

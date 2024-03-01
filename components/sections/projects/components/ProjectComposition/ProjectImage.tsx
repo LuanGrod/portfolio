@@ -14,7 +14,7 @@ export default function ProjectImage({ url, ...rest }: ProjectImageProps) {
   return (
     <div className={cn('w-full', rest.className)}>
       <AspectRatio ratio={16 / 9} >
-        <Image src={url} alt="Image" fill className="rounded-md object-cover" />
+        <Image src={url || "https://res.cloudinary.com/dwsgo3qmd/image/upload/v1699476705/portfolio/h36oi6ktxaqqhf54palq.png"} alt="Image" fill className="rounded-md object-cover" />
       </AspectRatio>
     </div>
   );
