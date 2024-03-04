@@ -6,6 +6,7 @@ import Experience from "@/components/sections/experience/main";
 import Pinned from "@/components/sections/pinned/main";
 import Projects from "@/components/sections/projects/main";
 import Technologies from "@/components/sections/skills/main";
+import WindowTop from "@/components/window-top";
 
 import { getDictionary } from "@/i18n/get-dictionary";
 import { Locale } from "@/i18n/i18n-config";
@@ -37,6 +38,7 @@ export default async function page({ params: { lang } }: pageProps) {
         <Projects dict={dict.projects} />
         <Contact dict={dict.contact} />
         <Footer dict={dict} />
+        <WindowTop/>
       </main>
     </>
   )

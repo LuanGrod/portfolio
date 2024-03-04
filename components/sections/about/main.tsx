@@ -12,7 +12,7 @@ export default async function About({ dict }: AboutProps) {
   return (
     <>
       {/* <section id="about" className="flex flex-col justify-center items-center w-full h-screen gap-24 bg-red-500"> */}
-      <section id="about" className="flex flex-col justify-center items-center w-full h-[91vh] bg-gradient-to-b from-black/20 dark:from-black/40 to-black/0 max-sm:mb-6 mb-10">
+      <section id="about" className="flex flex-col justify-center items-center w-full h-[91vh] bg-gradient-to-b from-black/10 dark:from-black/40 to-black/0 max-sm:mb-6 mb-10">
         <div className="w-2/3 flex flex-col justify-center max-sm:gap-y-2 gap-y-10">
           <div className="flex flex-col-reverse md:flex-row justify-between items-center">
             <TypingAnimation dict={dict} />
