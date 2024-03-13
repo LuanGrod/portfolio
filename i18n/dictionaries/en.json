@@ -1,92 +1,101 @@
 {
   "navbar": {
-    "welcome": "Bem-vindo ao meu Portfólio",
-    "about": "Sobre",
-    "tech": "Habilidades",
+    "welcome": "Welcome to my Portfolio",
+    "about": "About",
+    "experience": "Experience",
+    "tech": "Skills",
     "repos": {
-      "projects": "Projetos",
-      "pinneds": "Destaques"
+      "projects": "Projects",
+      "pinneds": "Highlights"
     },
-    "contact": "Contato",
-    "language": "Idioma",
+    "contact": "Contact",
+    "language": "Language",
     "tooltip": {
-      "download": "Baixar Currículo"
+      "download": "Download Resume"
     }
   },
   "about": {
-    "titleAbout": "Sobre mim",
-    "content1": "Olá, eu sou o Luan",
-    "content2": "Desenvolvedor Full Stack",
-    "content3": "Desenvolvedor full stack com experiência profissional em projetos PHP e conhecimento em tecnologias como Typescript, Next.js, Node.js e Tailwind.",
-    "content4": "Meu foco é na construção de interfaces atrativas e práticas para o usuário final, aplicando os fundamentos que adquiri ao longo do tempo para solucionar problemas reais.",
-    "getintouch": "Entre em contato"
+    "titleAbout": "About Me",
+    "content1": "Hello, I'm Luan",
+    "content2": "Front End Developer",
+    "content3": "Front end developer with professional experience in PHP projects and knowledge in technologies like Typescript, Next.js, Node.js, and Tailwind.",
+    "content4": "My focus is on building attractive and user-friendly interfaces, applying the fundamentals I have acquired over time to solve real-world problems.",
+    "getintouch": "Get in touch"
   },
   "experience": {
-    "titleExperience": "Experiência"
+    "titleExperience": "Experience",
+    "cards": {
+      "card11": "1 year as",
+      "card12": "Programmer",
+      "card21": "Currently",
+      "card22": "Junior PHP Dev",
+      "card31": "Degree in",
+      "card32": "ADS"
+    }
   },
   "pinned": {
-    "titlePinned": "Destaques"
+    "titlePinned": "Highlights"
   },
   "projects": {
-    "titleProjects": "Projetos",
-    "visit": "Visite o site",
-    "visitgithub": "Acessar repositório",
+    "titleProjects": "Projects",
+    "visit": "Visit Website",
+    "visitgithub": "Access Repository",
     "list": {
       "portfolio": {
-        "short": "Portfólio em Desenvolvimento: Explore meu espaço virtual em constante evolução.",
-        "long": "Um espaço digital cuidadosamente projetado para apresentar um pouco de minha vida como desenvolvedor. Aqui você encontrará uma coleção de projetos que ilustram minha jornada no mundo do desenvolvimento web. Estou constantemente atualizando este portfólio à medida que novos projetos surgem, então fique à vontade para voltar sempre e conferir as últimas adições."
+        "short": "Developing Portfolio: Explore my constantly evolving virtual space.",
+        "long": "A carefully designed digital space to showcase a bit of my life as a developer. Here you will find a collection of projects that illustrate my journey in the world of web development. I am constantly updating this portfolio as new projects emerge, so feel free to come back and check out the latest additions."
       },
       "animeflix": {
-        "short": "Clone de Interface Netflix: Explore categorias de filmes e séries em um design familiar.",
-        "long": "Clone básico da interface inicial da Netflix, oferecendo uma estrutura simplificada sem funcionalidades avançadas. Apresenta cartazes em destaque e categorias separadas para filmes e séries. Embora seja uma simulação estática, reflete a estética limpa e organizada da Netflix original, proporcionando uma experiência familiar aos usuários."
+        "short": "Netflix Interface Clone: Explore movie and series categories in a familiar design.",
+        "long": "Basic clone of the initial Netflix interface, offering a simplified structure without advanced features. It features featured posters and separate categories for movies and series. Although it is a static simulation, it reflects the clean and organized aesthetic of the original Netflix, providing a familiar experience to users."
       },
       "blackjack": {
-        "short": "Jogo de Blackjack Online: Desfrute do clássico jogo de cartas no seu navegador.",
-        "long": "Jogo simulando o Blackjack com uma interface simples e jogabilidade autêntica. Desenvolvido para oferecer uma experiência direta e sem complicações, este projeto traz a emoção do Blackjack para a web. Compatível com dispositivos desktop e móveis, é uma maneira fácil e acessível de aproveitar o desafio estratégico deste conhecido jogo de cartas."
+        "short": "Online Blackjack Game: Enjoy the classic card game in your browser.",
+        "long": "Game simulating Blackjack with a simple interface and authentic gameplay. Developed to offer a straightforward and hassle-free experience, this project brings the excitement of Blackjack to the web. Compatible with desktop and mobile devices, it is an easy and accessible way to enjoy the strategic challenge of this well-known card game."
       },
       "instagram": {
-        "short": "Clone de Tela de Login do Instagram: Uma recriação simples da tela de entrada.",
-        "long": "Este projeto é um clone simples da tela de login do Instagram, com a estrutura básica e sem funcionalidades ativas. Visualmente projetado para replicar a interface de login do Instagram, oferece uma visão estática da página de entrada. Apesar de ser apenas um esboço, reflete a estética reconhecível da tela de login do Instagram para fins demonstrativos."
+        "short": "Instagram Login Screen Clone: A simple recreation of the login screen.",
+        "long": "This project is a simple clone of the Instagram login screen, with the basic structure and no active functionalities. Visually designed to replicate the Instagram login interface, it offers a static view of the login page. Although it is just a mockup, it reflects the recognizable aesthetic of the Instagram login screen for demonstrative purposes."
       },
       "leairn": {
-        "short": "Marketplace de Cursos Tecnológicos: Explore uma variedade de cursos em uma plataforma de demonstração.",
-        "long": "Este projeto é uma demonstração de um marketplace de cursos tecnológicos com uma estrutura básica de navegação. Na tela inicial, há informações gerais sobre a plataforma. A página \"Cursos\" oferece uma visão ampla, com um filtro não funcional para mostrar a capacidade de seleção. Cada curso tem sua própria página com detalhes fictícios."
+        "short": "Technological Courses Marketplace: Explore a variety of courses on a demo platform.",
+        "long": "This project is a demonstration of a technological courses marketplace with a basic navigation structure. On the home screen, there is general information about the platform. The \"Courses\" page provides an overview, with a non-functional filter to showcase the selection capability. Each course has its own page with fictional details."
       },
       "petshop": {
-        "short": "Pet Shop Online: Explore produtos para seus animais de estimação e simule pedidos em um ambiente de demonstração.",
-        "long": "Bem-vindo ao Pet Shop Online, um projeto completo com frontend e backend, oferecendo uma simulação envolvente de compra para seus animais de estimação. Navegue pela página de produtos, autentique-se para uma experiência personalizada e adicione produtos ao seu carrinho, que é armazenado no local storage para preservar dados da sessão."
+        "short": "Online Pet Shop: Explore products for your pets and simulate orders in a demo environment.",
+        "long": "Welcome to the Online Pet Shop, a complete project with frontend and backend, offering an engaging shopping simulation for your pets. Browse the product page, authenticate for a personalized experience, and add products to your cart, which is stored in local storage to preserve session data."
       },
       "tictactoe": {
-        "short": "Jogo da Velha Interativo: Jogue e reveja movimentos neste simples jogo da velha.",
-        "long": "Este projeto é um jogo da velha simples, mas interativo, permitindo que os jogadores não apenas joguem, mas também revisitem jogadas específicas para análise. A interface minimalista oferece uma experiência direta, enquanto a funcionalidade de retrocesso possibilita a revisão de cada passo da partida."
+        "short": "Interactive Tic Tac Toe Game: Play and review moves in this simple tic tac toe game.",
+        "long": "This project is a simple yet interactive tic tac toe game, allowing players not only to play but also to revisit specific moves for analysis. The minimalist interface offers a straightforward experience, while the undo functionality enables the review of each step of the game."
       },
       "immobilelink": {
-        "short": "ImmobileLink: Conectando Profissionais Imobiliários e Empresas de Forma Eficiente.",
-        "long": "A ImmobileLink é uma plataforma inovadora dedicada a simplificar a comunicação entre corretores, construtoras e imobiliárias. Nosso objetivo é unir o profissional ideal ao imóvel certo, promovendo parcerias frutíferas e facilitando o crescimento do setor imobiliário."
+        "short": "ImmobileLink: Connecting Real Estate Professionals and Companies Efficiently.",
+        "long": "ImmobileLink is an innovative platform dedicated to simplifying communication between brokers, builders, and real estate agencies. Our goal is to match the ideal professional with the right property, fostering fruitful partnerships and facilitating the growth of the real estate industry."
       },
       "beatstore": {
-        "short": "E-commerce Customizável: Crie, gerencie e analise lojas online com facilidade.",
-        "long": "Este é um e-commerce altamente personalizável, com uma página de administração robusta. Permite criar novas lojas, personalizar layouts e cadastrar produtos e categorias. Com uma API backend-front-end, a comunicação é eficiente. O dashboard no admin oferece análise detalhada de desempenho, enquanto a autenticação segura e métodos de pagamento garantem uma experiência de compra confiável. Este ecossistema é uma simulação fictícia, criada para demonstrar habilidades técnicas."
+        "short": "Customizable E-commerce: Create, manage, and analyze online stores with ease.",
+        "long": "This is a highly customizable e-commerce, with a robust administration page. It allows you to create new stores, customize layouts, and register products and categories. With a backend-front-end API, communication is efficient. The dashboard in the admin offers detailed performance analysis, while secure authentication and payment methods ensure a reliable shopping experience. This ecosystem is a fictional simulation created to demonstrate technical skills."
       }
     }
   },
   "technologies": {
-    "titleTechnologies": "Habilidades",
-    "content1": "Em breve"
+    "titleTechnologies": "Skills",
+    "content1": "Coming soon"
   },
   "contact": {
-    "titleContact": "Contato"
+    "titleContact": "Contact"
   },
   "footer": {
-    "rights": "Todos os direitos reservados",
-    "content": "Desenvolvido utilizando Next.js (App Directory), Typescript, Tailwind, Framer motion e Shadcn/ui - Hospedagem com Vercel"
+    "rights": "All rights reserved",
+    "content": "Developed using Next.js (App Directory), Typescript, Tailwind, Framer motion, and Shadcn/ui - Hosted with Vercel"
   },
   "notfound": {
-    "routenotfind": "Página não encontrada",
-    "returnhome": "Voltar"
+    "routenotfind": "Page not found",
+    "returnhome": "Return"
   },
   "toasts": {
-    "langchanged": "Idioma alterado",
-    "themechanged": "Tema alterado"
+    "langchanged": "Language changed",
+    "themechanged": "Theme changed"
   }
 }

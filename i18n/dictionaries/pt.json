@@ -17,8 +17,8 @@
   "about": {
     "titleAbout": "Sobre mim",
     "content1": "Olá, eu sou o Luan",
-    "content2": "Desenvolvedor Full Stack",
-    "content3": "Desenvolvedor full stack com experiência profissional em projetos PHP e conhecimento em tecnologias como Typescript, Next.js, Node.js e Tailwind.",
+    "content2": "Desenvolvedor Front End",
+    "content3": "Desenvolvedor front end com experiência profissional em projetos PHP e conhecimento em tecnologias como Typescript, Next.js, Node.js e Tailwind.",
     "content4": "Meu foco é na construção de interfaces atrativas e práticas para o usuário final, aplicando os fundamentos que adquiri ao longo do tempo para solucionar problemas reais.",
     "getintouch": "Entre em contato"
   },
