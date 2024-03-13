@@ -20,12 +20,6 @@ interface pageProps {
 export default async function page({ params: { lang } }: pageProps) {
   const dict = await getDictionary(lang);
 
-  /*
-  https://www.rhuanbello.com/
-  https://www.birobirobiro.dev/
-  https://upmostly.com/next-js/how-to-level-up-your-next-js-app-with-scroll-animations
-  */
-
   return (
     <>
       {/* <main className="bg-red-800 w-auto h-fit min-h-screen flex flex-col items-center justify-center text-center duration-300"> */}
@@ -33,7 +27,7 @@ export default async function page({ params: { lang } }: pageProps) {
         <MainNav dict={dict} />
         <About dict={dict.about} />
         <Experience dict={dict.experience}/>
-        <Pinned dict={dict.pinned} />
+        {/* <Pinned dict={dict.pinned} /> */}
         <Technologies dict={dict.technologies} />
         <Projects dict={dict.projects} />
         <Contact dict={dict.contact} />

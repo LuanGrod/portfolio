@@ -22,10 +22,10 @@ export function getSection(navbar: Navbar) {
       id: "experience",
       label: navbar.experience
     },
-    {
-      id: "pinned",
-      label: navbar.repos.pinneds
-    },
+    // {
+    //   id: "pinned",
+    //   label: navbar.repos.pinneds
+    // },
     {
       id: "technologies",
       label: navbar.tech
@@ -109,9 +109,9 @@ export function getSkills() {
       "site": "https://www.php.net/"
     },
     {
-      "nome": "Git",
+      "nome": "GitHub",
       "icon": React.createElement(BiLogoGithub),
-      "site": "https://git-scm.com/about"
+      "site": "https://docs.github.com/pt"
     },
     {
       "nome": "Node.js",
@@ -151,7 +151,7 @@ export function getProjects(projects: Projects) {
       name: 'Portfólio',
       short: projects.list.portfolio.short,
       long: projects.list.portfolio.long,
-      date: '08/2023',
+      date: '03/2024',
       siteUrl: 'https://portfolio-luangrod.vercel.app/',
       githubUrl: 'https://github.com/LuanGrod/portfolio',
       imageUrl: [
@@ -170,125 +170,27 @@ export function getProjects(projects: Projects) {
     {
       id: "2",
       status: false, 
-      name: 'Animeflix',
-      short: projects.list.animeflix.short,
-      long: projects.list.animeflix.long,
-      date: '03/2022',
-      siteUrl: 'https://netflix-dio-jade.vercel.app/',
-      githubUrl: 'https://github.com/LuanGrod/netflix-DIO',
-      imageUrl: [
-        'https://res.cloudinary.com/dwsgo3qmd/image/upload/v1699384138/portfolio/fpguuxwuh37m2vpkzcf4.png'
-      ],
+      name: 'Beats Store',
+      short: projects.list.beatstore.short,
+      long: projects.list.beatstore.long,
+      date: '03/2024',
+      siteUrl: '',
+      githubUrl: 'https://github.com/LuanGrod/ecommerce',
+      imageUrl: [],
       videoUrl: '',
       tags: [
-        'HMTL',
-        'CSS',
-        'Javascript'
+        'Next.js',
+        'Typescript',
+        'Tailwind',
+        'Clerk',
+        'Planet Scale',
+        'Prisma',
+        'Zustand'
       ]
     },
     {
       id: "3",
       status: false, 
-      name: 'Blackjack game',
-      short: projects.list.blackjack.short,
-      long: projects.list.blackjack.long,
-      date: '10/2022',
-      siteUrl: 'https://luangrod-blackjack.netlify.app/',
-      githubUrl: 'https://github.com/LuanGrod/deck-of-cards-pure-js',
-      imageUrl: [
-        'https://res.cloudinary.com/dwsgo3qmd/image/upload/v1699384138/portfolio/blko3pkjeyouf4vmcr7c.png'
-      ],
-      videoUrl: '',
-      tags: [
-        'HMTL',
-        'CSS',
-        'Javascript'
-      ]
-    },
-    {
-      id: "4",
-      status: false, 
-      name: 'Instagram',
-      short: projects.list.instagram.short,
-      long: projects.list.instagram.long,
-      date: '03/2022',
-      siteUrl: 'https://instagram-dio-blue.vercel.app/',
-      githubUrl: 'https://github.com/LuanGrod/instagram-Dio',
-      imageUrl: [
-        'https://res.cloudinary.com/dwsgo3qmd/image/upload/v1699384138/portfolio/li5micyblrdg0v85c6i2.png'
-      ],
-      videoUrl: '',
-      tags: [
-        'HMTL',
-        'CSS',
-        'Javascript'
-      ]
-    },
-    {
-      id: "5",
-      status: false, 
-      name: 'LeAIrn',
-      short: projects.list.leairn.short,
-      long: projects.list.leairn.long,
-      date: '09/2022',
-      siteUrl: 'https://luangrod.github.io/leairn/',
-      githubUrl: 'https://github.com/LuanGrod/leairn',
-      imageUrl: [
-        'https://res.cloudinary.com/dwsgo3qmd/image/upload/v1699384138/portfolio/r9omq9tlawbmomwkecjq.png',
-        'https://res.cloudinary.com/dwsgo3qmd/image/upload/v1699384138/portfolio/izwbf3onogbc9jgd1jme.png'
-      ],
-      videoUrl: '',
-      tags: [
-        'HMTL',
-        'CSS',
-        'Javascript'
-      ]
-    },
-    {
-      id: "6",
-      status: false, 
-      name: 'Petshop',
-      short: projects.list.petshop.short,
-      long: projects.list.petshop.long,
-      date: '12/2022',
-      siteUrl: 'https://petshop-nb1aip8ft-luangrod.vercel.app/',
-      githubUrl: 'https://github.com/LuanGrod/pet-shop',
-      imageUrl: [
-        'https://res.cloudinary.com/dwsgo3qmd/image/upload/v1699384139/portfolio/rynibruoryzo1hm9relf.png',
-        'https://res.cloudinary.com/dwsgo3qmd/image/upload/v1699384139/portfolio/esu4jz9yzqiqgmw3yxgg.png'
-      ],
-      videoUrl: '',
-      tags: [
-        'React.js',
-        'Node.js',
-        'Javascript',
-        'Tailwind',
-        'MVC pattern',
-        'JSON'
-      ]
-    },
-    {
-      id: "7",
-      status: false, 
-      name: 'Tic-Tac-Toe',
-      short: projects.list.tictactoe.short,
-      long: projects.list.tictactoe.long,
-      date: '09/2022',
-      siteUrl: '',
-      githubUrl: 'https://github.com/LuanGrod/TicTacToe-ReactJs',
-      imageUrl: [
-        'https://res.cloudinary.com/dwsgo3qmd/image/upload/v1699384139/portfolio/agsgzc16nglohzl32abh.png'
-      ],
-      videoUrl: '',
-      tags: [
-        'HTML',
-        'CSS',
-        'Javascript',
-      ]
-    },
-    {
-      id: "8",
-      status: true, 
       name: 'ImmobileLink',
       short: projects.list.immobilelink.short,
       long: projects.list.immobilelink.long,
@@ -313,26 +215,124 @@ export function getProjects(projects: Projects) {
       ]
     },
     {
-      id: "9",
-      status: true, 
-      name: 'Beats Store',
-      short: projects.list.beatstore.short,
-      long: projects.list.beatstore.long,
-      date: '12/2023',
-      siteUrl: '',
-      githubUrl: 'https://github.com/LuanGrod/ecommerce',
-      imageUrl: [],
+      id: "4",
+      status: false, 
+      name: 'Petshop',
+      short: projects.list.petshop.short,
+      long: projects.list.petshop.long,
+      date: '12/2022',
+      siteUrl: 'https://petshop-nb1aip8ft-luangrod.vercel.app/',
+      githubUrl: 'https://github.com/LuanGrod/pet-shop',
+      imageUrl: [
+        'https://res.cloudinary.com/dwsgo3qmd/image/upload/v1699384139/portfolio/rynibruoryzo1hm9relf.png',
+        'https://res.cloudinary.com/dwsgo3qmd/image/upload/v1699384139/portfolio/esu4jz9yzqiqgmw3yxgg.png'
+      ],
       videoUrl: '',
       tags: [
-        'Next.js',
-        'Typescript',
+        'React.js',
+        'Node.js',
+        'Javascript',
         'Tailwind',
-        'Clerk',
-        'Planet Scale',
-        'Prisma',
-        'Zustand'
+        'MVC pattern',
+        'JSON'
       ]
     },
+    {
+      id: "5",
+      status: false, 
+      name: 'Blackjack game',
+      short: projects.list.blackjack.short,
+      long: projects.list.blackjack.long,
+      date: '10/2022',
+      siteUrl: 'https://luangrod-blackjack.netlify.app/',
+      githubUrl: 'https://github.com/LuanGrod/deck-of-cards-pure-js',
+      imageUrl: [
+        'https://res.cloudinary.com/dwsgo3qmd/image/upload/v1699384138/portfolio/blko3pkjeyouf4vmcr7c.png'
+      ],
+      videoUrl: '',
+      tags: [
+        'HMTL',
+        'CSS',
+        'Javascript'
+      ]
+    },
+    {
+      id: "6",
+      status: false, 
+      name: 'LeAIrn',
+      short: projects.list.leairn.short,
+      long: projects.list.leairn.long,
+      date: '09/2022',
+      siteUrl: 'https://luangrod.github.io/leairn/',
+      githubUrl: 'https://github.com/LuanGrod/leairn',
+      imageUrl: [
+        'https://res.cloudinary.com/dwsgo3qmd/image/upload/v1699384138/portfolio/r9omq9tlawbmomwkecjq.png',
+        'https://res.cloudinary.com/dwsgo3qmd/image/upload/v1699384138/portfolio/izwbf3onogbc9jgd1jme.png'
+      ],
+      videoUrl: '',
+      tags: [
+        'HMTL',
+        'CSS',
+        'Javascript'
+      ]
+    },
+    {
+      id: "7",
+      status: false, 
+      name: 'Tic-Tac-Toe',
+      short: projects.list.tictactoe.short,
+      long: projects.list.tictactoe.long,
+      date: '09/2022',
+      siteUrl: '',
+      githubUrl: 'https://github.com/LuanGrod/TicTacToe-ReactJs',
+      imageUrl: [
+        'https://res.cloudinary.com/dwsgo3qmd/image/upload/v1699384139/portfolio/agsgzc16nglohzl32abh.png'
+      ],
+      videoUrl: '',
+      tags: [
+        'HTML',
+        'CSS',
+        'Javascript',
+      ]
+    },
+    {
+      id: "8",
+      status: false, 
+      name: 'Animeflix',
+      short: projects.list.animeflix.short,
+      long: projects.list.animeflix.long,
+      date: '03/2022',
+      siteUrl: 'https://netflix-dio-jade.vercel.app/',
+      githubUrl: 'https://github.com/LuanGrod/netflix-DIO',
+      imageUrl: [
+        'https://res.cloudinary.com/dwsgo3qmd/image/upload/v1699384138/portfolio/fpguuxwuh37m2vpkzcf4.png'
+      ],
+      videoUrl: '',
+      tags: [
+        'HMTL',
+        'CSS',
+        'Javascript'
+      ]
+    },
+    {
+      id: "9",
+      status: false, 
+      name: 'Instagram',
+      short: projects.list.instagram.short,
+      long: projects.list.instagram.long,
+      date: '03/2022',
+      siteUrl: 'https://instagram-dio-blue.vercel.app/',
+      githubUrl: 'https://github.com/LuanGrod/instagram-Dio',
+      imageUrl: [
+        'https://res.cloudinary.com/dwsgo3qmd/image/upload/v1699384138/portfolio/li5micyblrdg0v85c6i2.png'
+      ],
+      videoUrl: '',
+      tags: [
+        'HMTL',
+        'CSS',
+        'Javascript'
+      ]
+    }
   ]
 
   return resp;
