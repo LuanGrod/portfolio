@@ -1,55 +1,52 @@
-"use client";
+'use client'
 
-import { Menu } from "lucide-react";
-import Link from "next/link";
+import { Menu } from 'lucide-react'
+import Link from 'next/link'
 
-import { Button } from "@/components/ui/button";
+import { Button } from '@/components/ui/button'
 import {
   NavigationMenu,
   NavigationMenuItem,
   NavigationMenuLink,
   NavigationMenuList,
   navigationMenuTriggerStyle,
-} from "@/components/ui/navigation-menu";
+} from '@/components/ui/navigation-menu'
 import {
   Sheet,
   SheetContent,
   SheetHeader,
   SheetTitle,
   SheetTrigger,
-} from "@/components/ui/sheet";
-import { ThemeToggle } from "./theme-toggle";
+} from '@/components/ui/sheet'
+import { ThemeToggle } from './theme-toggle'
 import {
   Tooltip,
   TooltipContent,
   TooltipProvider,
   TooltipTrigger,
-} from "./ui/tooltip";
+} from './ui/tooltip'
 
-import { Dictionaries } from "@/i18n/dictionaries/types";
-import { getLinks, getSection } from "@/lib/utils";
+import { Dictionaries } from '@/i18n/dictionaries/types'
+import { getLinks, getSection } from '@/lib/utils'
 
 interface MainNavProps {
-  dict: any;
+  dict: Dictionaries
 }
 
 export default function MainNav({ dict }: MainNavProps) {
-  const sections = getSection(dict.navbar);
-  const links = getLinks(dict.navbar);
+  const sections = getSection(dict.navbar)
+  const links = getLinks(dict.navbar)
 
   return (
     <header className="sticky top-0 z-10 w-full h-20 px-5 flex justify-between items-center align-middle shadow-lg bg-neutral-50 dark:bg-neutral-900">
       <Sheet>
         <SheetTrigger asChild>
-          <Button
-            variant="ghost"
-            size={"icon"}
-          >
+          <Button variant="ghost" size={'icon'}>
             <Menu />
           </Button>
         </SheetTrigger>
         <SheetContent
-          side={"left"}
+          side={'left'}
           className="w-full flex flex-col justify-between"
         >
           <div>
@@ -60,11 +57,7 @@ export default function MainNav({ dict }: MainNavProps) {
               <NavigationMenuList className="flex flex-col">
                 {sections.map((section) => (
                   <NavigationMenuItem key={section.id}>
-                    <Link
-                      href={`#${section.id}`}
-                      legacyBehavior
-                      passHref
-                    >
+                    <Link href={`#${section.id}`} legacyBehavior passHref>
                       <NavigationMenuLink
                         className={navigationMenuTriggerStyle()}
                       >
@@ -81,10 +74,7 @@ export default function MainNav({ dict }: MainNavProps) {
               {links.map((link) => (
                 <Tooltip key={link.link}>
                   <TooltipTrigger>
-                    <Link
-                      href={link.link}
-                      target="_blank"
-                    >
+                    <Link href={link.link} target="_blank">
                       {link.icon}
                     </Link>
                   </TooltipTrigger>
@@ -100,7 +90,7 @@ export default function MainNav({ dict }: MainNavProps) {
       <h1 className="font-montserrat font-bold text-transparent max-sm:text-2xl sm:text-3xl lg:text-4xl bg-clip-text bg-gradient-to-tr from-purple-400 to-blue-600 dark:from-purple-500 dark:to-blue-800">
         Luan Rodrigues
       </h1>
-      <ThemeToggle dict={dict}/>
+      <ThemeToggle dict={dict} />
     </header>
-  );
+  )
 }

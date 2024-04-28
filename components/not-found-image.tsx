@@ -1,32 +1,34 @@
-"use client"
+'use client'
 
-import Image from 'next/image';
+import Image from 'next/image'
 
-import { motion } from 'framer-motion';
-import imagem from '@/public/notfound.png';
+import { motion } from 'framer-motion'
 
-interface NotFoundImageProps { }
-
-export default function NotFoundImage({ }: NotFoundImageProps) {
-
+export default function NotFoundImage() {
   const transitionValues = {
     duration: 2,
     repeat: Infinity,
-    ease: "easeInOut"
-  };
+    ease: 'easeInOut',
+  }
 
   return (
     <>
       <motion.div
         transition={{
-          y: transitionValues
+          y: transitionValues,
         }}
         animate={{
-          y: ["0px", "15px", "0px"]
+          y: ['0px', '15px', '0px'],
         }}
       >
-        <Image src="https://res.cloudinary.com/dwsgo3qmd/image/upload/v1709243904/portfolio/fbnsmh9abnrenb72ugso.png" width={400} height={400} className="max-sm:w-[400px] w-[500px] md:w-[677px] h-auto" alt="image" />
+        <Image
+          src="https://res.cloudinary.com/dwsgo3qmd/image/upload/v1709243904/portfolio/fbnsmh9abnrenb72ugso.png"
+          width={400}
+          height={400}
+          className="max-sm:w-[400px] w-[500px] md:w-[677px] h-auto"
+          alt="image"
+        />
       </motion.div>
     </>
-  );
-}   
+  )
+}

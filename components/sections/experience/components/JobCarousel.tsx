@@ -1,14 +1,14 @@
-"use client";
+'use client'
 
-import { FaCode } from "react-icons/fa";
-import { FaCodeBranch } from "react-icons/fa6";
-import { RiFilePaper2Fill } from "react-icons/ri";
+import { FaCode } from 'react-icons/fa'
+import { FaCodeBranch } from 'react-icons/fa6'
+import { RiFilePaper2Fill } from 'react-icons/ri'
 
-import { Card, CardContent } from "@/components/ui/card";
-import { Cards } from "@/i18n/dictionaries/types";
+import { Card, CardContent } from '@/components/ui/card'
+import { Cards } from '@/i18n/dictionaries/types'
 
-interface JobCarouselProps { 
-  cards: Cards;
+interface JobCarouselProps {
+  cards: Cards
 }
 
 export default function JobCarousel({ cards }: JobCarouselProps) {
@@ -38,5 +38,5 @@ export default function JobCarousel({ cards }: JobCarouselProps) {
         </Card>
       </div>
     </>
-  );
+  )
 }

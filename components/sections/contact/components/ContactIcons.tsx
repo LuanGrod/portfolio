@@ -1,31 +1,26 @@
-"use client";
+'use client'
 
-import { motion, useInView } from 'framer-motion';
-import Link from 'next/link';
-import { useRef } from 'react';
+import { motion, useInView } from 'framer-motion'
+import Link from 'next/link'
+import { useRef } from 'react'
 
-interface ContactIconsProps { }
-
-export default function ContactIcons({ }: ContactIconsProps) {
+export default function ContactIcons() {
   const github = useRef<SVGPathElement>(null)
-  const githubisInView = useInView(github, {once: true})
+  const githubisInView = useInView(github, { once: true })
   const email = useRef<SVGPathElement>(null)
-  const emailisInView = useInView(email, {once: true})
+  const emailisInView = useInView(email, { once: true })
   const linkedin = useRef<SVGPathElement>(null)
-  const linkedinisInView = useInView(linkedin, {once: true})
-  
+  const linkedinisInView = useInView(linkedin, { once: true })
+
   return (
-    <div className='w-full flex flex-col lg:flex-row justify-center gap-y-4 gap-x-20 align-middle items-center font-montserrat'>
-      <div className='flex flex-col items-center w-fit min-w-[100px] h-full min-h-[130px]'>
-        <Link
-          href={"https://github.com/LuanGrod"}
-          target="_blank"
-        >
+    <div className="w-full flex flex-col lg:flex-row justify-center gap-y-4 gap-x-20 align-middle items-center font-montserrat">
+      <div className="flex flex-col items-center w-fit min-w-[100px] h-full min-h-[130px]">
+        <Link href={'https://github.com/LuanGrod'} target="_blank">
           <motion.svg
             width="80"
             height="80"
             viewBox="0 0 24 24"
-            animate={{ fill: "transparent" }}
+            animate={{ fill: 'transparent' }}
             transition={{ delay: 2.7 }}
           >
             <motion.path
@@ -42,19 +37,20 @@ export default function ContactIcons({ }: ContactIconsProps) {
             />
           </motion.svg>
         </Link>
-        <h2 className='mt-4 text-center max-sm:text-sm sm:text-base lg:text-lg'>GitHub</h2>
-        <h3 className='text-center max-sm:text-sm lg:text-base opacity-80'>@luanGrod</h3>
+        <h2 className="mt-4 text-center max-sm:text-sm sm:text-base lg:text-lg">
+          GitHub
+        </h2>
+        <h3 className="text-center max-sm:text-sm lg:text-base opacity-80">
+          @luanGrod
+        </h3>
       </div>
-      <div className='flex flex-col items-center w-fit min-w-[100px] h-full min-h-[130px]'>
-        <Link
-          href="mailto:luan14rodrigues17@gmail.com"
-          target="_blank"
-        >
+      <div className="flex flex-col items-center w-fit min-w-[100px] h-full min-h-[130px]">
+        <Link href="mailto:luan14rodrigues17@gmail.com" target="_blank">
           <motion.svg
             width="75"
             height="75"
             viewBox="0 0 24 24"
-            animate={{ fill: "transparent" }}
+            animate={{ fill: 'transparent' }}
             transition={{ delay: 2.7 }}
           >
             <motion.path
@@ -71,18 +67,17 @@ export default function ContactIcons({ }: ContactIconsProps) {
             />
           </motion.svg>
         </Link>
-        <h2 className='mt-4 text-center max-sm:text-sm sm:text-base lg:text-lg'>E-mail</h2>
+        <h2 className="mt-4 text-center max-sm:text-sm sm:text-base lg:text-lg">
+          E-mail
+        </h2>
       </div>
-      <div className='flex flex-col items-center w-fit min-w-[100px] h-full min-h-[130px]'>
-        <Link
-          href={"https://www.linkedin.com/in/luan-grod/"}
-          target="_blank"
-        >
+      <div className="flex flex-col items-center w-fit min-w-[100px] h-full min-h-[130px]">
+        <Link href={'https://www.linkedin.com/in/luan-grod/'} target="_blank">
           <motion.svg
             width="80"
             height="80"
             viewBox="0 0 24 24"
-            animate={{ fill: "transparent" }}
+            animate={{ fill: 'transparent' }}
             transition={{ delay: 2.7 }}
           >
             <motion.circle
@@ -112,9 +107,13 @@ export default function ContactIcons({ }: ContactIconsProps) {
             />
           </motion.svg>
         </Link>
-        <h2 className='mt-4 text-center max-sm:text-sm sm:text-base lg:text-lg'>LinkedIn</h2>
-        <h3 className='text-center max-sm:text-sm lg:text-base opacity-80'>@luan-grod</h3>
+        <h2 className="mt-4 text-center max-sm:text-sm sm:text-base lg:text-lg">
+          LinkedIn
+        </h2>
+        <h3 className="text-center max-sm:text-sm lg:text-base opacity-80">
+          @luan-grod
+        </h3>
       </div>
     </div>
-  );
+  )
 }

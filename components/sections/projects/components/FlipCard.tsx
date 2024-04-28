@@ -1,37 +1,39 @@
-"use client";
+'use client'
 
-import { motion } from "framer-motion";
-import { useState } from "react";
+import { motion } from 'framer-motion'
+import { useState } from 'react'
 
-import { Project } from "./ProjectComposition/Index";
-import { Projects } from "@/i18n/dictionaries/types";
-import { ProjectType } from "@/lib/models";
-
+import { Project } from './ProjectComposition/Index'
+import { Projects } from '@/i18n/dictionaries/types'
+import { ProjectType } from '@/lib/models'
 
 interface FlipCardProps {
-  project: ProjectType;
-  dict: Projects;
+  project: ProjectType
+  dict: Projects
 }
 
 export default function FlipCard({ project, dict }: FlipCardProps) {
-  const [isFlipped, setIsFlipped] = useState(false);
-  const [isAnimating, setIsAnimating] = useState(false);
+  const [isFlipped, setIsFlipped] = useState(false)
+  const [isAnimating, setIsAnimating] = useState(false)
 
   const handleFlip = () => {
     if (!isAnimating) {
-      setIsFlipped(!isFlipped);
+      setIsFlipped(!isFlipped)
       setIsAnimating(true)
     }
   }
 
   return (
     <div>
-      <div className="flip-card max-sm:hidden w-[500px] lg:w-[450px] h-[425px] rounded-md" onClick={handleFlip}>
+      <div
+        className="flip-card max-sm:hidden w-[500px] lg:w-[450px] h-[425px] rounded-md"
+        onClick={handleFlip}
+      >
         <motion.div
           className="flip-card-inner w-full h-full"
           initial={false}
           animate={{ rotateY: isFlipped ? 180 : 360 }}
-          transition={{ duration: 0.6, animationDirection: "normal" }}
+          transition={{ duration: 0.6, animationDirection: 'normal' }}
           onAnimationComplete={() => setIsAnimating(false)}
         >
           <div className="flip-card-front w-full flex justify-center">
@@ -46,13 +48,14 @@ export default function FlipCard({ project, dict }: FlipCardProps) {
               </div>
               <div className="flex flex-col gap-1">
                 <div className="flex flex-wrap justify-start gap-x-1 gap-y-0.5">
-                  {
-                    project.tags.map(badge => (
-                      <Project.Badge key={badge} label={badge} />
-                    ))
-                  }
+                  {project.tags.map((badge) => (
+                    <Project.Badge key={badge} label={badge} />
+                  ))}
                 </div>
-                <Project.Image key={project.imageUrl[0]} url={project.imageUrl[0]} />
+                <Project.Image
+                  key={project.imageUrl[0]}
+                  url={project.imageUrl[0]}
+                />
               </div>
             </Project.Root>
           </div>
@@ -68,23 +71,29 @@ export default function FlipCard({ project, dict }: FlipCardProps) {
                 <Project.Long label={project.long} />
               </div>
               <div className="flex flex-col gap-0.5">
-              {
-                project.siteUrl && <Project.Site dict={dict.visit} url={project.siteUrl}/>
-              }
-              {
-                project.githubUrl && <Project.Github dict={dict.visitgithub} url={project.githubUrl}/>
-              }
+                {project.siteUrl && (
+                  <Project.Site dict={dict.visit} url={project.siteUrl} />
+                )}
+                {project.githubUrl && (
+                  <Project.Github
+                    dict={dict.visitgithub}
+                    url={project.githubUrl}
+                  />
+                )}
               </div>
             </Project.Root>
           </div>
         </motion.div>
       </div>
-      <div className="flip-card sm:hidden w-[300px] h-[425px] rounded-md" onClick={handleFlip}>
+      <div
+        className="flip-card sm:hidden w-[300px] h-[425px] rounded-md"
+        onClick={handleFlip}
+      >
         <motion.div
           className="flip-card-inner w-full h-full"
           initial={false}
           animate={{ rotateY: isFlipped ? 180 : 360 }}
-          transition={{ duration: 0.6, animationDirection: "normal" }}
+          transition={{ duration: 0.6, animationDirection: 'normal' }}
           onAnimationComplete={() => setIsAnimating(false)}
         >
           <div className="flip-card-front w-full flex justify-center">
@@ -99,13 +108,14 @@ export default function FlipCard({ project, dict }: FlipCardProps) {
               </div>
               <div className="flex flex-col gap-1">
                 <div className="flex flex-wrap justify-start gap-x-1 gap-y-0.5">
-                  {
-                    project.tags.map(badge => (
-                      <Project.Badge key={badge} label={badge} />
-                    ))
-                  }
+                  {project.tags.map((badge) => (
+                    <Project.Badge key={badge} label={badge} />
+                  ))}
                 </div>
-                <Project.Image key={project.imageUrl[0]} url={project.imageUrl[0]} />
+                <Project.Image
+                  key={project.imageUrl[0]}
+                  url={project.imageUrl[0]}
+                />
               </div>
             </Project.Root>
           </div>
@@ -121,17 +131,20 @@ export default function FlipCard({ project, dict }: FlipCardProps) {
                 <Project.Long label={project.long} />
               </div>
               <div className="flex flex-col gap-0.5">
-              {
-                project.siteUrl && <Project.Site dict={dict.visit} url={project.siteUrl}/>
-              }
-              {
-                project.githubUrl && <Project.Github dict={dict.visitgithub} url={project.githubUrl}/>
-              }
+                {project.siteUrl && (
+                  <Project.Site dict={dict.visit} url={project.siteUrl} />
+                )}
+                {project.githubUrl && (
+                  <Project.Github
+                    dict={dict.visitgithub}
+                    url={project.githubUrl}
+                  />
+                )}
               </div>
             </Project.Root>
           </div>
         </motion.div>
       </div>
     </div>
-  );
+  )
 }

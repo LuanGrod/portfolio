@@ -1,15 +1,15 @@
-"use client";
+'use client'
 
-import Link from "next/link";
-import { ArrowUpRightSquare } from "lucide-react";
+import Link from 'next/link'
+import { ArrowUpRightSquare } from 'lucide-react'
 
-import { cn } from "@/lib/utils"
-import { Button } from "@/components/ui/button";
+import { cn } from '@/lib/utils'
+import { Button } from '@/components/ui/button'
 
 interface ProjectSiteProps {
-  url: string;
+  url: string
   dict: string
-  className?: string;
+  className?: string
 }
 
 export default function ProjectSite({ url, dict, ...rest }: ProjectSiteProps) {
@@ -20,5 +20,5 @@ export default function ProjectSite({ url, dict, ...rest }: ProjectSiteProps) {
         {dict}
       </Button>
     </Link>
-  );
+  )
 }

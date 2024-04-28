@@ -1,10 +1,10 @@
-"use client";
+'use client'
 
-import { ProjectType } from "@/lib/models";
-import { Project } from "./ProjectComposition/Index";
+import { ProjectType } from '@/lib/models'
+import { Project } from './ProjectComposition/Index'
 
 interface CardProps {
-  project: ProjectType;
+  project: ProjectType
 }
 
 export default function Card({ project }: CardProps) {
@@ -21,15 +21,13 @@ export default function Card({ project }: CardProps) {
         </div>
         <div className="flex flex-col gap-1">
           <div className="flex flex-wrap justify-start gap-x-1 gap-y-0.5">
-            {
-              project.tags.map(badge => (
-                <Project.Badge key={badge} label={badge} />
-              ))
-            }
+            {project.tags.map((badge) => (
+              <Project.Badge key={badge} label={badge} />
+            ))}
           </div>
           <Project.Image key={project.imageUrl[0]} url={project.imageUrl[0]} />
         </div>
       </Project.Root>
     </div>
-  );
+  )
 }

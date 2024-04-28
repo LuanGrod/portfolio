@@ -12,20 +12,22 @@ export async function generateStaticParams() {
 }
 
 export const metadata: Metadata = {
-  title: "Portfólio | Luan Rodrigues",
+  title: 'Portfólio | Luan Rodrigues',
   description: 'Criado com Nextjs App Directory',
 }
 
 export default function RootLayout({
   children,
-  params
+  params,
 }: {
   children: React.ReactNode
   params: { lang: string }
 }) {
   return (
     <html lang={params.lang} className="scroll-smooth" suppressHydrationWarning>
-      <body className={`min-h-screen ${roboto.variable} ${plaster.variable} ${montserrat.variable}`}>
+      <body
+        className={`min-h-screen ${roboto.variable} ${plaster.variable} ${montserrat.variable}`}
+      >
         <ToastProvider />
         <ThemeProvider
           attribute="class"

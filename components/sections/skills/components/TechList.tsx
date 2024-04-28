@@ -1,19 +1,11 @@
-"use client";
+'use client'
 
-import { PlusCircle } from "lucide-react"
+import { getSkills } from '@/lib/utils'
+import { motion } from 'framer-motion'
+import Link from 'next/link'
 
-import { Technologies } from "@/i18n/dictionaries/types";
-import { getSkills } from "@/lib/utils";
-import { motion } from "framer-motion";
-import Link from "next/link";
-
-interface TechListProps {
-  dict: Technologies
-}
-
-export default function TechList({ dict }: TechListProps) {
-
-  const skills = getSkills();
+export default function TechList() {
+  const skills = getSkills()
 
   const itemsVariants = {
     hidden: {
@@ -27,7 +19,7 @@ export default function TechList({ dict }: TechListProps) {
         delay: 0.2 * i,
       },
     }),
-  };
+  }
 
   return (
     <>
@@ -52,5 +44,5 @@ export default function TechList({ dict }: TechListProps) {
         ))}
       </ul>
     </>
-  );
+  )
 }

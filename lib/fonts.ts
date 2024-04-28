@@ -1,22 +1,22 @@
-import { Montserrat, Roboto, Plaster } from "next/font/google"
+import { Montserrat, Roboto, Plaster } from 'next/font/google'
 
 export const montserrat = Montserrat({
-  weight:  "variable",
+  weight: 'variable',
   subsets: ['latin'],
   display: 'swap',
-  variable: '--font-montserrat'
+  variable: '--font-montserrat',
 })
 
 export const roboto = Roboto({
-  weight: "400",
+  weight: '400',
   subsets: ['latin'],
   display: 'swap',
-  variable: '--font-roboto'
+  variable: '--font-roboto',
 })
 
 export const plaster = Plaster({
-  weight: "400",
+  weight: '400',
   subsets: ['latin'],
   display: 'swap',
-  variable: '--font-plaster'
+  variable: '--font-plaster',
 })
