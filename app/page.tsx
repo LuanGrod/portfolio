@@ -1,7 +1,3 @@
-interface PageProps {
-  children: React.ReactNode
-}
-
-export default async function Page({ children }: PageProps) {
-  return <>{children}</>
+export default async function Page() {
+  return <>heheh</>
 }
