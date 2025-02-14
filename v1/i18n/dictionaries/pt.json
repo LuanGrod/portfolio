@@ -1,0 +1,101 @@
+{
+  "navbar": {
+    "welcome": "Bem-vindo ao meu Portfólio",
+    "about": "Sobre",
+    "experience": "Experiência",
+    "tech": "Habilidades",
+    "repos": {
+      "projects": "Projetos",
+      "pinneds": "Destaques"
+    },
+    "contact": "Contato",
+    "language": "Idioma",
+    "tooltip": {
+      "download": "Baixar Currículo"
+    }
+  },
+  "about": {
+    "titleAbout": "Sobre mim",
+    "content1": "Olá, eu sou o Luan",
+    "content2": "Desenvolvedor Front End",
+    "content3": "Desenvolvedor front end com experiência profissional em projetos PHP e conhecimento em tecnologias como Typescript, Next.js, Node.js e Tailwind.",
+    "content4": "Meu foco é na construção de interfaces atrativas e práticas para o usuário final, aplicando os fundamentos que adquiri ao longo do tempo para solucionar problemas reais.",
+    "getintouch": "Entre em contato"
+  },
+  "experience": {
+    "titleExperience": "Experiência",
+    "cards": {
+      "card11": "1 ano como",
+      "card12": "Programador",
+      "card21": "Atualmente",
+      "card22": "Dev PHP Jr.",
+      "card31": "Diploma em",
+      "card32": "ADS"
+    }
+  },
+  "pinned": {
+    "titlePinned": "Destaques"
+  },
+  "projects": {
+    "titleProjects": "Projetos",
+    "visit": "Visite o site",
+    "visitgithub": "Acessar repositório",
+    "list": {
+      "portfolio": {
+        "short": "Portfólio em Desenvolvimento: Explore meu espaço virtual em constante evolução.",
+        "long": "Um espaço digital cuidadosamente projetado para apresentar um pouco de minha vida como desenvolvedor. Aqui você encontrará uma coleção de projetos que ilustram minha jornada no mundo do desenvolvimento web. Estou constantemente atualizando este portfólio à medida que novos projetos surgem, então fique à vontade para voltar sempre e conferir as últimas adições."
+      },
+      "animeflix": {
+        "short": "Clone de Interface Netflix: Explore categorias de filmes e séries em um design familiar.",
+        "long": "Clone básico da interface inicial da Netflix, oferecendo uma estrutura simplificada sem funcionalidades avançadas. Apresenta cartazes em destaque e categorias separadas para filmes e séries. Embora seja uma simulação estática, reflete a estética limpa e organizada da Netflix original, proporcionando uma experiência familiar aos usuários."
+      },
+      "blackjack": {
+        "short": "Jogo de Blackjack Online: Desfrute do clássico jogo de cartas no seu navegador.",
+        "long": "Jogo simulando o Blackjack com uma interface simples e jogabilidade autêntica. Desenvolvido para oferecer uma experiência direta e sem complicações, este projeto traz a emoção do Blackjack para a web. Compatível com dispositivos desktop e móveis, é uma maneira fácil e acessível de aproveitar o desafio estratégico deste conhecido jogo de cartas."
+      },
+      "instagram": {
+        "short": "Clone de Tela de Login do Instagram: Uma recriação simples da tela de entrada.",
+        "long": "Este projeto é um clone simples da tela de login do Instagram, com a estrutura básica e sem funcionalidades ativas. Visualmente projetado para replicar a interface de login do Instagram, oferece uma visão estática da página de entrada. Apesar de ser apenas um esboço, reflete a estética reconhecível da tela de login do Instagram para fins demonstrativos."
+      },
+      "leairn": {
+        "short": "Marketplace de Cursos Tecnológicos: Explore uma variedade de cursos em uma plataforma de demonstração.",
+        "long": "Este projeto é uma demonstração de um marketplace de cursos tecnológicos com uma estrutura básica de navegação. Na tela inicial, há informações gerais sobre a plataforma. A página \"Cursos\" oferece uma visão ampla, com um filtro não funcional para mostrar a capacidade de seleção. Cada curso tem sua própria página com detalhes fictícios."
+      },
+      "petshop": {
+        "short": "Pet Shop Online: Explore produtos para seus animais de estimação e simule pedidos em um ambiente de demonstração.",
+        "long": "Bem-vindo ao Pet Shop Online, um projeto completo com frontend e backend, oferecendo uma simulação envolvente de compra para seus animais de estimação. Navegue pela página de produtos, autentique-se para uma experiência personalizada e adicione produtos ao seu carrinho, que é armazenado no local storage para preservar dados da sessão."
+      },
+      "tictactoe": {
+        "short": "Jogo da Velha Interativo: Jogue e reveja movimentos neste simples jogo da velha.",
+        "long": "Este projeto é um jogo da velha simples, mas interativo, permitindo que os jogadores não apenas joguem, mas também revisitem jogadas específicas para análise. A interface minimalista oferece uma experiência direta, enquanto a funcionalidade de retrocesso possibilita a revisão de cada passo da partida."
+      },
+      "immobilelink": {
+        "short": "ImmobileLink: Conectando Profissionais Imobiliários e Empresas de Forma Eficiente.",
+        "long": "A ImmobileLink é uma plataforma inovadora dedicada a simplificar a comunicação entre corretores, construtoras e imobiliárias. Nosso objetivo é unir o profissional ideal ao imóvel certo, promovendo parcerias frutíferas e facilitando o crescimento do setor imobiliário."
+      },
+      "beatstore": {
+        "short": "E-commerce Customizável: Crie, gerencie e analise lojas online com facilidade.",
+        "long": "Este é um e-commerce altamente personalizável, com uma página de administração robusta. Permite criar novas lojas, personalizar layouts e cadastrar produtos e categorias. Com uma API backend-front-end, a comunicação é eficiente. O dashboard no admin oferece análise detalhada de desempenho, enquanto a autenticação segura e métodos de pagamento garantem uma experiência de compra confiável. Este ecossistema é uma simulação fictícia, criada para demonstrar habilidades técnicas."
+      }
+    }
+  },
+  "technologies": {
+    "titleTechnologies": "Habilidades",
+    "content1": "Em breve"
+  },
+  "contact": {
+    "titleContact": "Contato"
+  },
+  "footer": {
+    "rights": "Todos os direitos reservados",
+    "content": "Desenvolvido utilizando Next.js (App Directory), Typescript, Tailwind, Framer motion e Shadcn/ui - Hospedagem com Vercel"
+  },
+  "notfound": {
+    "routenotfind": "Página não encontrada",
+    "returnhome": "Voltar"
+  },
+  "toasts": {
+    "langchanged": "Idioma alterado",
+    "themechanged": "Tema alterado"
+  }
+}

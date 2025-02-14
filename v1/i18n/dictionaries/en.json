@@ -1,0 +1,101 @@
+{
+  "navbar": {
+    "welcome": "Welcome to my Portfolio",
+    "about": "About",
+    "experience": "Experience",
+    "tech": "Skills",
+    "repos": {
+      "projects": "Projects",
+      "pinneds": "Highlights"
+    },
+    "contact": "Contact",
+    "language": "Language",
+    "tooltip": {
+      "download": "Download Resume"
+    }
+  },
+  "about": {
+    "titleAbout": "About Me",
+    "content1": "Hello, I'm Luan",
+    "content2": "Front End Developer",
+    "content3": "Front end developer with professional experience in PHP projects and knowledge in technologies like Typescript, Next.js, Node.js, and Tailwind.",
+    "content4": "My focus is on building attractive and user-friendly interfaces, applying the fundamentals I have acquired over time to solve real-world problems.",
+    "getintouch": "Get in touch"
+  },
+  "experience": {
+    "titleExperience": "Experience",
+    "cards": {
+      "card11": "1 year as",
+      "card12": "Programmer",
+      "card21": "Currently",
+      "card22": "Junior PHP Dev",
+      "card31": "Degree in",
+      "card32": "ADS"
+    }
+  },
+  "pinned": {
+    "titlePinned": "Highlights"
+  },
+  "projects": {
+    "titleProjects": "Projects",
+    "visit": "Visit Website",
+    "visitgithub": "Access Repository",
+    "list": {
+      "portfolio": {
+        "short": "Developing Portfolio: Explore my constantly evolving virtual space.",
+        "long": "A carefully designed digital space to showcase a bit of my life as a developer. Here you will find a collection of projects that illustrate my journey in the world of web development. I am constantly updating this portfolio as new projects emerge, so feel free to come back and check out the latest additions."
+      },
+      "animeflix": {
+        "short": "Netflix Interface Clone: Explore movie and series categories in a familiar design.",
+        "long": "Basic clone of the initial Netflix interface, offering a simplified structure without advanced features. It features featured posters and separate categories for movies and series. Although it is a static simulation, it reflects the clean and organized aesthetic of the original Netflix, providing a familiar experience to users."
+      },
+      "blackjack": {
+        "short": "Online Blackjack Game: Enjoy the classic card game in your browser.",
+        "long": "Game simulating Blackjack with a simple interface and authentic gameplay. Developed to offer a straightforward and hassle-free experience, this project brings the excitement of Blackjack to the web. Compatible with desktop and mobile devices, it is an easy and accessible way to enjoy the strategic challenge of this well-known card game."
+      },
+      "instagram": {
+        "short": "Instagram Login Screen Clone: A simple recreation of the login screen.",
+        "long": "This project is a simple clone of the Instagram login screen, with the basic structure and no active functionalities. Visually designed to replicate the Instagram login interface, it offers a static view of the login page. Although it is just a mockup, it reflects the recognizable aesthetic of the Instagram login screen for demonstrative purposes."
+      },
+      "leairn": {
+        "short": "Technological Courses Marketplace: Explore a variety of courses on a demo platform.",
+        "long": "This project is a demonstration of a technological courses marketplace with a basic navigation structure. On the home screen, there is general information about the platform. The \"Courses\" page provides an overview, with a non-functional filter to showcase the selection capability. Each course has its own page with fictional details."
+      },
+      "petshop": {
+        "short": "Online Pet Shop: Explore products for your pets and simulate orders in a demo environment.",
+        "long": "Welcome to the Online Pet Shop, a complete project with frontend and backend, offering an engaging shopping simulation for your pets. Browse the product page, authenticate for a personalized experience, and add products to your cart, which is stored in local storage to preserve session data."
+      },
+      "tictactoe": {
+        "short": "Interactive Tic Tac Toe Game: Play and review moves in this simple tic tac toe game.",
+        "long": "This project is a simple yet interactive tic tac toe game, allowing players not only to play but also to revisit specific moves for analysis. The minimalist interface offers a straightforward experience, while the undo functionality enables the review of each step of the game."
+      },
+      "immobilelink": {
+        "short": "ImmobileLink: Connecting Real Estate Professionals and Companies Efficiently.",
+        "long": "ImmobileLink is an innovative platform dedicated to simplifying communication between brokers, builders, and real estate agencies. Our goal is to match the ideal professional with the right property, fostering fruitful partnerships and facilitating the growth of the real estate industry."
+      },
+      "beatstore": {
+        "short": "Customizable E-commerce: Create, manage, and analyze online stores with ease.",
+        "long": "This is a highly customizable e-commerce, with a robust administration page. It allows you to create new stores, customize layouts, and register products and categories. With a backend-front-end API, communication is efficient. The dashboard in the admin offers detailed performance analysis, while secure authentication and payment methods ensure a reliable shopping experience. This ecosystem is a fictional simulation created to demonstrate technical skills."
+      }
+    }
+  },
+  "technologies": {
+    "titleTechnologies": "Skills",
+    "content1": "Coming soon"
+  },
+  "contact": {
+    "titleContact": "Contact"
+  },
+  "footer": {
+    "rights": "All rights reserved",
+    "content": "Developed using Next.js (App Directory), Typescript, Tailwind, Framer motion, and Shadcn/ui - Hosted with Vercel"
+  },
+  "notfound": {
+    "routenotfind": "Page not found",
+    "returnhome": "Return"
+  },
+  "toasts": {
+    "langchanged": "Language changed",
+    "themechanged": "Theme changed"
+  }
+}
